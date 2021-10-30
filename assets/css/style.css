@@ -1,0 +1,36 @@
+header {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding:20px;
+}
+
+#city-search {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#search {
+    border-radius: 10px;
+    width: 100%;
+    border-style: solid;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cities {
+    margin-left: 10px;
+}
+
+.card {
+    margin: 15px;
+}
+.current-city {
+    margin: 5px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.stats {
+    margin: 10px;
+}
