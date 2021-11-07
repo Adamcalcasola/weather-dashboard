@@ -31,66 +31,23 @@
     <header style="text-align: center">Weather Dashboard</header>
     <!--<div class="container">-->
         <div class="row">
-            <div id="cities" class="col-4 cities">
-                <h1>Search for a City:</h1>
-                <textarea id="city-search"></textarea>
-                <button id="search" class="search">Search</button>
-                <!--<button class="search">City 1</button>-->
+            <div id="cities" class="col-3 cities">
+                <div id="search-form">
+                    <h1>Search for a City:</h1>
+                    <input id="city-search" placeholder="enter city name"></input>
+                    <button id="search" class="search">Search</button>
+                </div>
             </div>
-            <div class="col-8 card">
+            <div class="col-9">
                 <div class="current-city">
-                    <h2 id="city">{Enter City Name}</h2>
-                    <div id="temperature" class="key stats">Temp: F</div>
-                    <div id="wind" class="key stats">Wind:</div>
-                    <div id="humidity" class="key stats">Humidity: %</div>
-                    <div id="uvindex" class="key stats">UV Index:</div>
+                    <h2 id="city"></h2>
+                    <div id="temperature" class="stats">Temp: </div>
+                    <div id="wind" class="stats">Wind:</div>
+                    <div id="humidity" class="stats">Humidity: </div>
+                    <div id="uvindex" class="stats">UV Index:</div>
                 </div>
                 <div id="forecast">
                     <h3>5-Day Forecast:</h3>
-                    <!--<div class="row">
-                        <div class="col-2 card">
-                            <div class="key">Date:</div>
-                            <div class="key">Icon:</div>
-                            <div class="key">Temp:</div>
-                            <div class="key">Wind:</div>
-                            <div class="key">Humidity:</div>
-                        </div>
-                        <div class="col-2 card">
-                            <div class="key">Date:</div>
-                            <div class="key"> Icon:</div>
-                            <div class="key">Temp:</div>
-                            <div class="key">Wind:</div>
-                            <div class="key">Humidity:</div>
-                        </div>
-                        <div class="col-2 card">
-                            <div class="key">Date:</div>
-                            <div class="key"> Icon:</div>
-                            <div class="key">Temp:</div>
-                            <div class="key">Wind:</div>
-                            <div class="key">Humidity:</div>
-                        </div>
-                        <div class="col-2 card">
-                            <div class="key">Date:</div>
-                            <div class="key"> Icon:</div>
-                            <div class="key">Temp:</div>
-                            <div class="key">Wind:</div>
-                            <div class="key">Humidity:</div>
-                        </div>
-                        <div class="col-2 card">
-                            <div class="key">Date:</div>
-                            <div class="key"> Icon:</div>
-                            <div class="key">Temp:</div>
-                            <div class="key">Wind:</div>
-                            <div class="key">Humidity:</div>
-                        </div>
-                        <div class="col-2 card">
-                            <div class="key">Date:</div>
-                            <div class="key"> Icon:</div>
-                            <div class="key">Temp:</div>
-                            <div class="key">Wind:</div>
-                            <div class="key">Humidity:</div>
-                        </div>
-                    </div>-->
                 </div>
             </div>
         </div>
